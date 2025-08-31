@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
-
+import logo from '../assets/img/image2.svg';
 const ApproachSection: React.FC = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
@@ -17,7 +17,7 @@ const ApproachSection: React.FC = () => {
           <div className="max-w-3xl mx-auto">
             <div className="video-thumbnail w-full rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="../src/assets/img/image2.svg" 
+                src={logo} 
                 alt="Woman applying undereye treatment" 
                 className="w-full"
               />

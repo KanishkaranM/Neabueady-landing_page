@@ -1,6 +1,11 @@
-
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useInView } from 'react-intersection-observer';
+import before1 from '../assets/img/before.png';
+import before2 from '../assets/img/before1.svg';
+import before3 from '../assets/img/after2.png';
+import after1 from '../assets/img/after.svg';
+import after2 from '../assets/img/after.png';
+import after3 from '../assets/img/before2.png';
 
 const ResultsSection: React.FC = () => {
   const { ref, inView } = useInView({
@@ -8,23 +13,23 @@ const ResultsSection: React.FC = () => {
     triggerOnce: true,
   });
 
-  // Array of before/after images
+  // Array of before/after images (Corrected structure)
   const results = [
     {
-      before: "../src/assets/img/before.png",
-      after: "../src/assets/img/after.svg",
+      before: before1,
+      after: after1,
     },
     {
-      before: "../src/assets/img/before1.svg",
-      after: "../src/assets/img/after.png",
+      before: before2,
+      after: after2,
     },
     {
-      before: "../src/assets/img/after2.png",
-      after: "../src/assets/img/before2.png",
+      before: before3,
+      after: after3,
     },
     {
-      before: "../src/assets/img/before.png",
-      after: "../src/assets/img/after.svg",
+      before: before1, // Assuming you want to repeat the first one
+      after: after1,
     },
   ];
 
@@ -47,7 +52,7 @@ const ResultsSection: React.FC = () => {
                   <div className="flex">
                     <div className="w-1/2 border-r border-white">
                       <img 
-                        src={result.before} 
+                        src={result.before} // Corrected
                         alt="Before undereye cleaning" 
                         className="w-full h-40 object-cover"
                       />
@@ -55,7 +60,7 @@ const ResultsSection: React.FC = () => {
                     </div>
                     <div className="w-1/2">
                       <img 
-                        src={result.after} 
+                        src={result.after} // Corrected
                         alt="After undereye cleaning" 
                         className="w-full h-40 object-cover"
                       />

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
-
+// import Image from '../assets/img/image.svg';
 const TrainingSection: React.FC = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,

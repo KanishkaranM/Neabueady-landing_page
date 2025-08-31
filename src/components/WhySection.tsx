@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
-
+import Image from '../assets/img/image.svg';
 const WhySection: React.FC = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
@@ -17,7 +17,7 @@ const WhySection: React.FC = () => {
           <div className="max-w-3xl mx-auto">
             <div className="video-thumbnail w-full rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="../src/assets/img/image.svg" 
+                src={Image}
                 alt="Woman demonstrating undereye cleaning" 
                 className="w-full"
               />

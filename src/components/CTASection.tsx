@@ -2,7 +2,7 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-scroll';
-
+// import logo from '../assets/img/image2.svg';
 const CTASection: React.FC = () => {
   const { ref, inView } = useInView({
     threshold: 0.1,
