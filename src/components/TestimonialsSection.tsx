@@ -1,6 +1,6 @@
-
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
+import student from '../assets/img/student.svg';
 
 const TestimonialsSection: React.FC = () => {
   const { ref, inView } = useInView({
@@ -10,19 +10,19 @@ const TestimonialsSection: React.FC = () => {
 
   const testimonials = [
     {
-      image: "../src/assets/img/student.svg",
+      image: student, // Corrected
       name: "Sarah Johnson",
       role: "Beauty Therapist",
       quote: "This training has transformed my business. My clients love the results and keep coming back for more!"
     },
     {
-      image: "../src/assets/img/student.svg",
+      image: student, // Corrected
       name: "Emily Parker",
       role: "Salon Owner",
       quote: "Adding undereye cleaning to our service menu has been incredibly profitable. The training was comprehensive and easy to follow."
     },
     {
-      image: "../src/assets/img/student.svg",
+      image: student, // Corrected
       name: "Jessica Miller",
       role: "Esthetician",
       quote: "My clients are amazed by the before and after results. This has become one of our most requested services!"
