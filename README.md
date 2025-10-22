@@ -1,8 +1,12 @@
-# Welcome to your Lovable project
+# Welcome to your Neabueady project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/76d9057c-9fd2-41e1-bc71-8210d9300d38
+**URL**: (https://neabeauty.netlify.app/)
+
+## Screenshots
+
+![App Screenshot]([./assets/img/image1.png])
 
 ## How can I edit this code?
 
@@ -10,7 +14,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/76d9057c-9fd2-41e1-bc71-8210d9300d38) and start prompting.
+Simply visit the [Project]((https://neabeauty.netlify.app/)) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -24,10 +28,10 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/KanishkaranM/Neabueady-landing_page.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd Neabueady-landing_page
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -62,12 +66,5 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/76d9057c-9fd2-41e1-bc71-8210d9300d38) and click on Share -> Publish.
+Simply open [visit](https://neabeauty.netlify.app/) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
